@@ -7,9 +7,26 @@ Designed to explore health patterns, identify at-risk users, and create business
 
 ---
 
+## 📁 Files Included
+
+- `WellnessWave.pbix` – Dashboard file
+- `curefit_health_data.csv` – Sample data (anonymized)
+- `cover.png` – Dashboard banner
+- `README.md` – This description
+
+---
+
+## 🧪 Risk Detection Logic (DAX)
+
+```DAX
+HealthRisk = 
+IF(
+    'Table'[HeartRate] > 100 && 'Table'[SleepHours] < 5,
+    "At Risk",
+    "Normal"
+)
 # Health-Dashboard
 Power BI project analyzing health data
-
 
 ## 📊 Project Overview
 
