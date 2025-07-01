@@ -1,3 +1,12 @@
+![Dashboard Banner](cover.png)
+
+# 🌊 WellnessWave Dashboard
+
+A Power BI health analytics dashboard showing heart rate, sleep, steps, and app usage data.  
+Designed to explore health patterns, identify at-risk users, and create business insights.
+
+---
+
 # Health-Dashboard
 Power BI project analyzing health data
 
